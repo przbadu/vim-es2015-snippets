@@ -91,3 +91,12 @@ endsnippet
 snippet cl "console.log(...)"
 console.log('${2:$1: }', ${1});
 endsnippet
+
+snippet sc "switch statement" b
+switch ($1) {
+	$3
+	default:
+		return $2;
+}
+endsnippet
+
